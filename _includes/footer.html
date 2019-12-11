@@ -1,40 +1,29 @@
 
 <footer class="container">
     <div class="site-footer">
-       <!--  <div class="site-footer-icons">
-            <a target="_blank" href="https://www.zhihu.com/people/ityouknow">
-               知乎
-            </a>
-            <a target="_blank" href="http://weibo.com/ityouknow">
-               微博
-            </a>
-            <a target="_blank" href="https://github.com/ityouknow">
-                GitHub
-            </a>
-        </div> -->
           <div class="card text-center">
             <ul class="list-inline" style="margin-left: 0;">
                <li>
-                <a target="_blank" href="https://github.com/ityouknow">
+                <a target="_blank" href="https://github.com/myma911">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse">GitHub</i>
                   </span>
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://www.zhihu.com/people/ityouknow">
+                <a target="_blank" href="https://www.cnblogs.com/aaron911/">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa  fa-stack-1x fa-inverse">知</i>
+                    <i class="fa  fa-stack-1x fa-inverse">博客</i>
                   </span>
                 </a>
               </li>
                   <li>
-                <a target="_blank" href="https://weibo.com/ityouknow">
+                <a target="_blank" href="https://weibo.com/u/1658162891">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-weibo fa-stack-1x fa-inverse">微博</i>
                   </span>
                 </a>
               </li>
@@ -45,9 +34,6 @@
             <a href="{{ nav.href }}" title="{{ nav.label }}" target="{{ nav.target | default: _self }}">{{ nav.label }}</a>
             {% endfor %}
         </div>
-<!--         <div class="site-footer-icons">
-               京ICP备15067287号-3
-        </div> -->
         <div class="scrolltop">
             京ICP备15067287号-3
             <a href="javascript:window.scrollTo(0,0)" >TOP</a>
@@ -58,9 +44,9 @@
         </div>
     </div>
     <!-- Third-Party JS -->
-    <script type="text/javascript" src="http://favorites.ren/bower_components/geopattern/js/geopattern.min.js"></script>
+    <script type="text/javascript" src="/assets/js/geopattern.min.js"></script>
     <!-- My JS -->
-    <script type="text/javascript" src="http://favorites.ren/assets/js/script.js"></script>
+    <script type="text/javascript" src="/assets/js/script.js"></script>
     {% for javascript in page.javascript %}
     <script src="/assets/js/{{javascript}}"></script>
     {% endfor %}
