@@ -19,7 +19,7 @@ repository: myma911/myma911.github.io
 github_url: https://github.com/myma911
 #url: http://www.ityouknow.com
 #enforce_ssl: ityouknow.com
-url: https://github_username.github.io
+url: https://myma911.github.io
 
 ## Gem
 plugins:
